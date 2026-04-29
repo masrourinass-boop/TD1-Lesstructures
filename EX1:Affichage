@@ -1,0 +1,3 @@
+void AfficherPoint(Point p) {
+    printf("(%d,%d)\n", p.abs, p.ord);
+}
