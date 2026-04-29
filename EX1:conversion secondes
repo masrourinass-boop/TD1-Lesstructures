@@ -1,0 +1,3 @@
+int HeureEnSecondes(Heure h) {
+    return h.hh*3600 + h.mm*60 + h.ss;
+}
