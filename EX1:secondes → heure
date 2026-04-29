@@ -1,0 +1,8 @@
+Heure SecondesEnHeure(int s) {
+    Heure h;
+    h.hh = s/3600;
+    s %= 3600;
+    h.mm = s/60;
+    h.ss = s%60;
+    return h;
+}
