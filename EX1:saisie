@@ -1,0 +1,6 @@
+Point SaisirPoint() {
+    Point p;
+    printf("Donner x y : ");
+    scanf("%d%d", &p.abs, &p.ord);
+    return p;
+}
