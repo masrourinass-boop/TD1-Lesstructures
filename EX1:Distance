@@ -1,0 +1,3 @@
+float distance(Point p) {
+    return sqrt(p.abs*p.abs + p.ord*p.ord);
+}
